@@ -160,7 +160,7 @@ enum LINE {
 /**
  *IOT implementation method.
  */
-//% weight=10 color=#008B00 icon="\uf1eb" block=micro:IoT
+//% weight=10 color=#008B00 icon="\uf1eb" block="micro:IoT"
 namespace microIoT {
 
     let textColor = 1;
