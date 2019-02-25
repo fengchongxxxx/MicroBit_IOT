@@ -50,5 +50,5 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 ```package
-micro:IoT=github:fengchongxxxx/pxt-micro-IoT
+Obloq=github:fengchongxxxx/ssssss
 ```

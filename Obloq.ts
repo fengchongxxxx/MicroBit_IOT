@@ -160,8 +160,8 @@ enum LINE {
 /**
  *IOT implementation method.
  */
-//% weight=10 color=#008B00 icon="\uf1eb" block="micro:IoT"
-namespace microIoT {
+//% weight=10 color=#008B00 icon="\uf1eb" block=IOT
+namespace Obloq {
 
     let textColor = 1;
     let printfX = 0;
@@ -661,7 +661,7 @@ namespace microIoT {
     //% receive.fieldEditor="gridpicker" receive.fieldOptions.columns=3
     //% send.fieldEditor="gridpicker" send.fieldOptions.columns=3
     //% blockId=Obloq_http_setup
-    //% block="micro:IoT setup http | Wi-Fi: | name: %SSID| password: %PASSWORD| http config: | ip: %IP| port: %PORT | start connection"
+    //% block="Obloq setup http | Wi-Fi: | name: %SSID| password: %PASSWORD| http config: | ip: %IP| port: %PORT | start connection"
     export function Obloq_http_setup(/*wifi*/SSID: string, PASSWORD: string,
                                      /*mqtt*/IP: string, PORT: number):
         void {
@@ -690,7 +690,7 @@ namespace microIoT {
     //% send.fieldEditor="gridpicker" send.fieldOptions.columns=3
     //% SERVER.fieldEditor="gridpicker" SERVER.fieldOptions.columns=2
     //% blockId=Obloq_mqtt_setup
-    //% block="micro:IoT setup mqtt | Wi-Fi: | name: %SSID| password: %PASSWORD| IoT service: | Iot_id: %IOT_ID| Iot_pwd: %IOT_PWD| (default topic_0) Topic: %IOT_TOPIC | start connection: | Servers: %SERVER"
+    //% block="Obloq setup mqtt | Wi-Fi: | name: %SSID| password: %PASSWORD| IoT service: | Iot_id: %IOT_ID| Iot_pwd: %IOT_PWD| (default topic_0) Topic: %IOT_TOPIC | start connection: | Servers: %SERVER"
     export function Obloq_mqtt_setup(/*wifi*/SSID: string, PASSWORD: string,
                                      /*mqtt*/IOT_ID: string, IOT_PWD: string, IOT_TOPIC: string,
                                      /*connect*/SERVER: SERVERS):
