@@ -1,0 +1,24 @@
+{
+    "name": "micro:IoT",
+    "version": "0.0.1",
+    "description": "Add Wi-Fi connectivity to micro:bit and start your IoT project in 5 minutes!",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "microIot.ts",
+        "Obloq.cpp",
+        "_locales/zh-cn/microIot-strings.json",
+        "_locales/zh-tw/microIot-strings.json"
+    ],
+    "testFiles": [
+        "test.ts",
+        "mqttMoretest.ts",
+        "httpTest.ts"
+    ],
+    "public": true,
+    "installedVersion": "workspace:033cb82a-4b88-4845-50b7-35f4b62746a2"
+}
