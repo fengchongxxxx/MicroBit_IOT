@@ -19,6 +19,5 @@
         "mqttMoretest.ts",
         "httpTest.ts"
     ],
-    "public": true,
-    "installedVersion": "workspace:cac70594-1d69-4c1c-b401-e2a9b4aced35"
+    "public": false
 }
